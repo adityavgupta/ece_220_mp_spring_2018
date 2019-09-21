@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*Intro Para:
+ Aditya Vikram Gupta
+ avgupta3
+ February 12 2018
+ This program prints a row of the pascal's triangle depending in the row index entered
+*/
+
+int main()
+{
+  int row; //declare row
+  unsigned long num;
+
+  printf("Enter a row index: ");
+  scanf("%d",&row);
+
+     // Write your code here
+
+  int k; //declare k
+  int i; //declare i
+ 
+  for ( k = 0; k<= row; k++) {
+     
+      num =1;
+
+      for(i=1; i<=k; i++) {
+          num = num * (row + 1 - i)/ i ;
+     }
+
+   printf(" %lu ", num);
+
+  }
+  
+  printf("\n");
+
+
+  return 0;
+}

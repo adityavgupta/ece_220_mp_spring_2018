@@ -1,0 +1,25 @@
+Compilation Results:
+********************
+prog5.c:15:1: error: "/*" within comment [-Werror=comment]
+ /*
+ ^
+cc1: all warnings being treated as errors
+prog5.c:15:1: error: "/*" within comment [-Werror=comment]
+ /*
+ ^
+cc1: all warnings being treated as errors
+In file included from mp5_grading.c:30:0:
+stuprog5.c:15:1: error: "/*" within comment [-Werror=comment]
+ /*
+ ^
+cc1: all warnings being treated as errors
+
+Total points for 18 tests: 
+
+Grade:
+******
+Late submission: 0
+Functionality: 0
+Comments and Style: 0
+Intro paragraph: 5
+Total: 5
